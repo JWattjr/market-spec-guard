@@ -11,8 +11,24 @@ evidence exists, and manipulation risks are absent. The result is `LISTABLE`,
 ## GenLayer-native decision
 
 This is an on-chain rule-enforcement primitive: no platform moderator alone can
-approve a vague or manipulable market. Validators compare the decision,
-covered-outcome set, ambiguity codes, and manipulation flags.
+approve a vague or manipulable market. Validators independently recompute and
+compare the consequential listing decision. Outcome coverage, ambiguity codes,
+and manipulation flags remain stored as audit metadata.
+
+## Lifecycle and API
+
+- Deploy in `PENDING` with a question, outcomes, sources, close time, and later
+  resolution time.
+- Call `review()` before market close. The terminal gate is `LISTABLE`,
+  `NEEDS_CLARIFICATION`, or `REJECTED`; repeat review is idempotent.
+- Read the decision and diagnostics with `get_state()`.
+- A market platform should list only after the review transaction is final.
+
+## Live evidence
+
+- [StudioNet contract](https://explorer-studio.genlayer.com/address/0x3923f85a0c070e5A523F689B9a200070e8617643)
+- [Bradbury contract](https://explorer-bradbury.genlayer.com/address/0x17addCff80c3E090159eC37acd8F48343ba8846b)
+- Exact receipts and current finality are recorded in `deployments/`.
 
 ## Verify
 
