@@ -2,7 +2,7 @@
 
 **Contribution type:** Builder → Intelligent Contracts  
 **Title:** MarketSpec Guard  
-**Contribution date:** Use the actual date of the submitted release.
+**Contribution date:** August 12, 2026
 
 ## Notes / Description
 
@@ -21,11 +21,11 @@ listing policy primitive and does not accept stakes or funds.
 
 ## Evidence to add
 
-1. GitHub Repository — replace with the private repository URL.
-2. GitHub File — `contracts/MarketSpecGuard.py`.
-3. GitHub File — `tests/test_guard.py`.
-4. GitHub File — `docs/SECURITY_AUDIT.md`.
-5. GitHub File — `docs/TEST_MATRIX.md`.
-6. GitHub File — `deployments/studionet.json`.
-7. GitHub File — `deployments/bradbury.json`.
-8. GenLayer Explorer Contract — replace with the finalized Bradbury address URL.
+1. GitHub Repository — https://github.com/JWattjr/market-spec-guard
+2. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/contracts/MarketSpecGuard.py
+3. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/tests/test_guard.py
+4. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/docs/SECURITY_AUDIT.md
+5. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/docs/TEST_MATRIX.md
+6. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/deployments/studionet.json
+7. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/deployments/bradbury.json
+8. GenLayer Explorer Contract — https://explorer-bradbury.genlayer.com/address/0x17addCff80c3E090159eC37acd8F48343ba8846b
