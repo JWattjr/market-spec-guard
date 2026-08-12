@@ -12,8 +12,9 @@ constructor freezes the question, 2-8 unique outcomes, public evidence URLs,
 close time, and resolution time. Before participation begins, the leader and
 validators independently review time-boundedness, outcome coverage, evidence
 availability, ambiguity, resolvability, and manipulation risks. The custom
-equivalence function compares LISTABLE/NEEDS_CLARIFICATION/REJECTED, covered
-outcome IDs, ambiguity codes, and manipulation flags—not just response format.
+equivalence function independently recomputes and compares the consequential
+LISTABLE/NEEDS_CLARIFICATION/REJECTED decision—not just response format—while
+coverage, ambiguity codes, and manipulation flags remain audit metadata.
 Private-network evidence is rejected, unavailable sources fail closed, and
 terminal review is idempotent. Includes pinned GenVM source, validator tests,
 security audit, test matrix, and StudioNet/Bradbury deployment records. It is a
