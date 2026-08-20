@@ -1,6 +1,7 @@
 # Security and consensus audit: MarketSpecGuard
 
 Audit date: 2026-08-12
+StudioNet re-verification: 2026-08-20
 Scope: `contracts/MarketSpecGuard.py`
 Method: manual review, GenVM AST lint, SDK schema validation, direct-mode
 idempotency/URL tests, and hosted-network receipt inspection.
@@ -39,7 +40,11 @@ no payout.
   warning.
 - Live state: `LISTABLE`, both outcomes covered, no ambiguity or manipulation
   flags.
-- Bradbury status is tracked independently in its deployment manifest.
+- Deployed StudioNet source SHA-256 exactly matches the repository contract:
+  `2cd095e2d226c2e54a2eb1ebf4e69e2a21ecc0b80a4f97d7cf751742ab197673`.
+- Re-verification AST lint passed. Deeper SDK validation was unavailable because
+  the current linter artifact omits the pinned runner tar; StudioNet source and
+  schema retrieval both succeeded.
 
 This is an engineering assessment, not formal verification or a financial or
 legal guarantee.

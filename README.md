@@ -27,8 +27,9 @@ and manipulation flags remain stored as audit metadata.
 ## Live evidence
 
 - [StudioNet contract](https://explorer-studio.genlayer.com/address/0x3923f85a0c070e5A523F689B9a200070e8617643)
-- [Bradbury contract](https://explorer-bradbury.genlayer.com/address/0x17addCff80c3E090159eC37acd8F48343ba8846b)
-- Exact receipts and current finality are recorded in `deployments/`.
+- The finalized deployment, live review, state, source-hash match, and receipt
+  identifiers are recorded in `deployments/studionet.json` and
+  `docs/STUDIONET_VERIFICATION.md`.
 
 ## Verify
 

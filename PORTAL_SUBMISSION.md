@@ -2,7 +2,7 @@
 
 **Contribution type:** Builder → Intelligent Contracts  
 **Title:** MarketSpec Guard  
-**Contribution date:** August 12, 2026
+**Contribution date:** August 20, 2026
 
 ## Notes / Description
 
@@ -17,7 +17,7 @@ LISTABLE/NEEDS_CLARIFICATION/REJECTED decision—not just response format—whil
 coverage, ambiguity codes, and manipulation flags remain audit metadata.
 Private-network evidence is rejected, unavailable sources fail closed, and
 terminal review is idempotent. Includes pinned GenVM source, validator tests,
-security audit, test matrix, and StudioNet/Bradbury deployment records. It is a
+security audit, test matrix, and finalized StudioNet verification records. It is a
 listing policy primitive and does not accept stakes or funds.
 
 ## Evidence to add
@@ -28,5 +28,5 @@ listing policy primitive and does not accept stakes or funds.
 4. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/docs/SECURITY_AUDIT.md
 5. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/docs/TEST_MATRIX.md
 6. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/deployments/studionet.json
-7. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/deployments/bradbury.json
-8. GenLayer Explorer Contract — https://explorer-bradbury.genlayer.com/address/0x17addCff80c3E090159eC37acd8F48343ba8846b
+7. GitHub File — https://github.com/JWattjr/market-spec-guard/blob/main/docs/STUDIONET_VERIFICATION.md
+8. GenLayer Explorer Contract — https://explorer-studio.genlayer.com/address/0x3923f85a0c070e5A523F689B9a200070e8617643
